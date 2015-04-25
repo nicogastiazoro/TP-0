@@ -1,7 +1,4 @@
-/* UTN FRBA SSL - HelloWorld
- * hello.c
- *
- * 2015 04 05
+ /* 2015 04 25
  *
  *
  * por Nicolas Gastiazoro
@@ -10,11 +7,11 @@
  * Imprime un saludo en stdout.
  */
 
-#include <stdio.h>  /* puts */
-#include <stdlib.h> /* EXIT_SUCCESS */
+#include <stdio.h>  
+
 
 int main(void){
-	puts("Hello, World!");
+	printf("Hello, World!"); /*Se reemplazo puts*/
 
-	return EXIT_SUCCESS;
+	/*return EXIT_SUCCESS;*/
 }
